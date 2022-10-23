@@ -21,7 +21,6 @@ public class loops {
 
         // for-each loop
         String[] numbers = { "'1'", "'2'", "'3'" };
-
         for (String i : numbers) {
             System.out.println(i);
         }
