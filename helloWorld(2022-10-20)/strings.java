@@ -7,5 +7,9 @@ class strings {
         // toLowerCase() also works.
 
         System.out.println(greeting.indexOf("e"));
+
+        String secondGreeting = "World!";
+
+        System.out.println(greeting.concat(" " + secondGreeting));
     }
 }
