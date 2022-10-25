@@ -2,17 +2,18 @@ public class loops {
     public static void main(String[] args) {
 
         // while loop
-        int num = 0;
+        int num, anotherNum;
+        num = anotherNum = 0; // initializing multiple vars at the same time.
+
         while (num < 3) {
             System.out.println(num);
             num++;
         }
 
-        int donum = 0;
         do {
             System.out.println("do while");
-            donum++;
-        } while (donum < 3);
+            anotherNum++;
+        } while (anotherNum < 3);
 
         // for loop
         for (int i = 1; i < 3; i++) {
