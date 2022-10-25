@@ -22,5 +22,12 @@ public class arrays {
             System.out.print(cars[i] + " "); // Use "print" to not print a new line.
         }
 
+        // Multidimensional
+
+        int[][] moreNumbers = { { 1, 2, 3 }, { 4, 5, 6 } };
+        int x = moreNumbers[1][2]; // second row, third column
+        System.out.println();
+        System.out.println(x);
+
     }
 }
