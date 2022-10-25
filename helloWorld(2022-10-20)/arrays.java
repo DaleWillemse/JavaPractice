@@ -17,5 +17,10 @@ public class arrays {
         // printing array length
         System.out.println(cars.length);
 
+        // Looping through an array.
+        for (int i = 0; i < cars.length; i++) {
+            System.out.print(cars[i] + " "); // Use "print" to not print a new line.
+        }
+
     }
 }

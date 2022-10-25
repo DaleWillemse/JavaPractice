@@ -9,6 +9,10 @@ class ifELse {
         } else {
             System.out.println("Count isn't a number");
         }
+
+        // Short hand if and else
+        String answer = (count == 1) ? "Count = 1" : "Count != 1";
+        System.out.println(answer);
     }
 
 }
