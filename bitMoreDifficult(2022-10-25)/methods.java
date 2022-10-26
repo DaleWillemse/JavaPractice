@@ -1,17 +1,23 @@
 class methods {
     public static void main(String[] args) {
+        newMethod(); // calling a method without any parameters.
+
+        boolean returnValue = returnMethod(); // calling a method that returns a value.
+
+        int num = 1;
+        int answer = fullMethod(num); // calling a method with parameters and a return value.
 
     }
 
-    void newMethod() { // creating a method.
+    static void newMethod() { // creating a method.
         // returns nothing. "void"
     }
 
-    boolean returnMethod() { // returns type "boolean".
+    static boolean returnMethod() { // returns type "boolean".
         return false;
     }
 
-    int fullMethod(int num) { // takes an int and stores it as "num", returns and int.
+    static int fullMethod(int num) { // takes an int and stores it as "num", returns and int.
         int answer = num + num;
         return answer;
     }
