@@ -33,4 +33,5 @@ class methods {
     static float method(float num) {
         return 2.0f;
     }
+
 }
