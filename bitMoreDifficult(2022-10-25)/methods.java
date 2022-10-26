@@ -22,4 +22,14 @@ class methods {
         return answer;
     }
 
+    // Method overloading.
+    // methods have the same name, however the different parameters allow it to pass
+    // two different values.
+    static int method(int num) {
+        return 2;
+    }
+
+    static float method(float num) {
+        return 2.0f;
+    }
 }
