@@ -3,10 +3,11 @@ class methods {
         newMethod(); // calling a method without any parameters.
 
         boolean returnValue = returnMethod(); // calling a method that returns a value.
+        System.out.println(returnValue);
 
         int num = 1;
         int answer = fullMethod(num); // calling a method with parameters and a return value.
-
+        System.out.println(answer);
     }
 
     static void newMethod() { // creating a method.
