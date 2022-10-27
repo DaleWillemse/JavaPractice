@@ -13,5 +13,6 @@ public class importingPackages {
         String yourName = newObj.nextLine(); // next is a method within Scanner, prints a new line.
         System.out.println("Hi " + yourName);
 
+        newObj.close(); // closing the scanner.
     }
 }
