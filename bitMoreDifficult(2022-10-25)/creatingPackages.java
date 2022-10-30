@@ -1,4 +1,4 @@
-package mypackage; // use "package" keyword to create a package.
+//package mypackage; // use "package" keyword to create a package.
 
 public class creatingPackages {
     public static void main(String[] args) {
