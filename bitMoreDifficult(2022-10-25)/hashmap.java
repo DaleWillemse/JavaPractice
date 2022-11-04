@@ -30,10 +30,13 @@ public class hashmap {
 
         // Contains a certain value (values on the right)
         fun.containsValue("password"); // returns True or False
+
         // Contains a key(on the left side)
-        fun.containsKey("John");
+        fun.containsKey("John"); // returns True or False
+
         // Finding the size of the map
         fun.size();
+
         // Replacing values
         fun.replace("John", "newPassword"); // John replaces his password with a new password
 
