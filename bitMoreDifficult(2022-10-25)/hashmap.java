@@ -3,9 +3,9 @@ import java.util.HashMap;
 public class hashmap {
     public static void main(String[] args) {
         // Common variables
-        int a = 10;
-        int b = 5;
-        int c = 100;
+        // int a = 10;
+        // int b = 5;
+        // int c = 100;
 
         // What if we had a million vars in one easy accessible place.
         // Make use of a hashmap!
