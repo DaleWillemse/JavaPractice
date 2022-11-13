@@ -15,10 +15,10 @@ public class gui implements ActionListener {
     public gui() {
         frame = new JFrame();
 
-        btn = new JButton("Click Me");
+        btn = new JButton("Click Me"); // button
         btn.addActionListener(this);
 
-        lbl = new JLabel("Clicks: 0");
+        lbl = new JLabel("Clicks: 0"); // label
 
         panel = new JPanel();
         panel.setLayout(new GridLayout(0, 1));
